@@ -33,8 +33,8 @@ return [
 
         'mongodb' => [
             'driver' => 'mongodb',
-            'dsn' => env('MONGODB_URI'),
-            'database' => 'YOUR_DATABASE_NAME',
+            'dsn' => env('mongodb+srv://mutukuk553:aDO6K6KsEVFEM5V4@Cluster0.abcde.mongodb.net/mydb?retryWrites=true&w=majority'),
+            'database' => 'Cluster0',
             ],
 
         'sqlite' => [
