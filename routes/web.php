@@ -19,3 +19,7 @@ $msg = 'You are not connected to MongoDB. Error: ' . $e->getMessage();
 }
 return ['msg' => $msg];
 });
+
+Route::get('/', function () {
+    return view('welcome');
+});
