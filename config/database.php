@@ -33,9 +33,9 @@ return [
 
         'mongodb' => [
             'driver' => 'mongodb',
-            'dsn' => env('mongodb+srv://mutukuk553:aDO6K6KsEVFEM5V4@Cluster0.abcde.mongodb.net/mydb?retryWrites=true&w=majority'),
-            'database' => 'Cluster0',
-            ],
+            'dsn' => env('DB_DSN'),
+            'database' => env('DB_DATABASE', 'Multi_Step_Form'),
+        ],
 
         'sqlite' => [
             'driver' => 'sqlite',
